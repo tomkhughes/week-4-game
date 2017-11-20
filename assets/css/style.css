@@ -2,30 +2,80 @@
   box-sizing: border-box;
 }
 
-.header {
-	border: 2px solid black;
-	height: 150px;
-	width: 80%;
-	font-size: 33px;
-	text-align: center;
-	margin: 0 auto;
-	padding-top: 55px;
-}
-
-div{
-	border: solid 2px black;
-	padding: 10px;
-}
 
 body {
 	line-height: 1.5;
+	font-family: 'Roboto', sans-serif;
+	background-image: linear-gradient(to top, #48c6ef 0%, #6f86d6 100%);
+}
+
+.header {
+	height: 150px;
+	width: 80%;
+	font-size: 50px;
+	text-align: center;
+	margin: 0 auto;
+	padding-top: 40px;
+	color: white;
+}
+
+.instructions {
+	padding: 25px;
+	margin: 0 auto;
+	border: 2px solid white;
+	color: white;
+	border-radius: 25px;
+	margin: 0 auto;
+	font-weight: bold;
+	width:90%;
+
+
+}
+
+.crystals {
+	padding: 25px;
+	margin: 0 auto;
+	color: white;
+	border-radius: 25px;
+	margin: 0 auto;
+	font-weight: bold;
 }
 
 .crystalImage {
 	height: 100px;
 	width: 100px;
 }
+.crystalImage:hover {
+	opacity: 0.5;
+}
 
-.number-match {
-	border bottom: none;
+
+#numberToMatch {
+	padding: 25px;
+	margin: 10px auto;
+	border: 2px solid white;
+	color: white;
+	border-radius: 25px;
+	margin: 10px auto;
+	font-weight: bold;
+}
+
+.winLose {
+	padding: 25px;
+	margin: 10px auto;
+	border: 2px solid white;
+	color: white;
+	border-radius: 25px;
+	margin: 10px auto;
+	font-weight: bold;
+}
+
+.your-total {
+	padding: 25px;
+	margin: 10px auto;
+	border: 2px solid white;
+	color: white;
+	border-radius: 25px;
+	margin: 10px auto;
+	font-weight: bold;
 }
