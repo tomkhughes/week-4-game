@@ -1,0 +1,31 @@
+* {
+  box-sizing: border-box;
+}
+
+.header {
+	border: 2px solid black;
+	height: 150px;
+	width: 80%;
+	font-size: 33px;
+	text-align: center;
+	margin: 0 auto;
+	padding-top: 55px;
+}
+
+div{
+	border: solid 2px black;
+	padding: 10px;
+}
+
+body {
+	line-height: 1.5;
+}
+
+.crystalImage {
+	height: 100px;
+	width: 100px;
+}
+
+.number-match {
+	border bottom: none;
+}
